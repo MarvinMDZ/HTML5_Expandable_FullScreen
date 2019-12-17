@@ -1,0 +1,51 @@
+/* RESET BLOCK */
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+label,
+tr,
+th,
+td,
+canvas,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+button {
+	background: transparent;
+	outline: none;
+	cursor: pointer;
+}
+
+/* END RESET BLOCK */
+
+video {
+	height: 100%;
+	width: 100%;
+}
+
+/*******************
+PANEL STYLES
+*******************/
+#expansion {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
