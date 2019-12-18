@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 	<title>HTML5 FullScreen Panel</title>
-	<link rel="stylesheet" href="styles/style.css" />
+	<link rel="stylesheet" href="style.css" />
 	<script>EBModulesToLoad = ['Video', 'EBAPI', 'EBCMD'];</script>
 	<script type="text/javascript" src="http://ds.serving-sys.com/BurstingScript/adKit/adkit.js"></script>
 	<script type="text/javascript" src="../../localPreview.js"></script>
@@ -15,8 +15,10 @@
 
 <body>
 	<div id="expansion">
+		<button class="closeBtn" id="closeBtn"></button>
+		<button class="clickBtn" id="clickBtn"></button>
 		<div id="videoContainer" class="video-container centered">
-			<video id="video" playsinline webkit-playsinline controls poster="images/poster.jpg">
+			<video id="video" playsinline controls poster="images/poster.jpg">
 				<source src="videos/video.mp4" type="video/mp4">
 			</video>
 		</div>
